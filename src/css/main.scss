@@ -1,0 +1,20 @@
+// Importation de Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Définition de la palette de couleurs et de la police
+$primary-color: #0074c7;
+$secondary-color: #00497c;
+$tertiary-color: #384050;
+$red-color: #cd2c2e;
+$green-color: #82b864;
+$light-color: #f1f8fc;
+
+$font-family-graphik: "Graphik", sans-serif;
+
+// Corps du document
+body {
+    background-color: $light-color;
+    font-family: $font-family-graphik;
+}
+
+// Ajoutez ici les styles pour le header, le footer et les autres composants
